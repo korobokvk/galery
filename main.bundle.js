@@ -119,27 +119,6 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ "../../../../../src/app/components/main/customisation/css/main.component.css":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-=======
->>>>>>> e556ecafe3b81ad8ceb81490364ad1f739001c16
 /***/ "../../../../../src/app/components/main/customisation/css/upload.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -157,7 +136,6 @@ exports.push([module.i, ".img {\n    width: 250px;\n    height: 250px;\n    back
 module.exports = module.exports.toString();
 
 /***/ }),
-
 
 /***/ "../../../../../src/app/components/main/customisation/upload.component.html":
 /***/ (function(module, exports) {
@@ -335,10 +313,7 @@ var MainComponent = (function () {
 MainComponent = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
         selector: 'main-comp',
-
-        template: __webpack_require__("../../../../../src/app/components/main/customisation/main.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/components/main/customisation/css/main.component.css")]
-
+        template: '<album-comp></album-comp>'
     })
 ], MainComponent);
 
